@@ -23,6 +23,7 @@ public enum Size {
     }
     
     @Override
+    //retorna a descrição
     public String toString() {
         return this.description;
     }
@@ -31,14 +32,17 @@ public enum Size {
         return description;
     }
     
+    //retorna o valor mínimo
     public int getMinValue() {
         return minValue;
     }
     
+    //retorna o valor máximo
     public int getMaxValue() {
         return maxValue;
     }
     
+    //retorna o código
     public char getCode() {
         return code;
     }
